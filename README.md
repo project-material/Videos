@@ -8,7 +8,6 @@ An application designed to elegantly display and organize videos stored locally 
 
 ## Features
 - Modern Material 3 Design
-- Monet-themed icon for Android 12 or higher
 - Utilizes MediaStore and FFmpeg for swift metadata retrieval
 - Ability to rename, share, or delete directly within the app
 
