@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialAlertDialog.ProjectX" parent="@style/MaterialAlertDialog.Material3">
+        <item name="singleChoiceItemLayout">@layout/m3_alert_select_dialog_singlechoice</item>
+    </style>
+    <style name="MaterialAlertDialog.ProjectX.Title.Panel.CenterStacked" parent="@style/MaterialAlertDialog.Material3.Title.Panel.CenterStacked">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">24dp</item>
+    </style>
+    <style name="MaterialAlertDialog.ProjectX.Title.Text.CenterStacked" parent="@style/MaterialAlertDialog.Material3.Title.Text.CenterStacked">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="TextAppearance.ProjectX.BodyLarge" parent="@style/TextAppearance.Material3.BodyLarge">
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="Widget.ProjectX.MaterialCheckedTextView" parent="">
+        <!-- Text-related attributes -->
+        <item name="android:textAppearance">@style/TextAppearance.ProjectX.BodyLarge</item>
+        <item name="android:textColor">@color/m3_checked_text_text_color</item>
+        <item name="android:minHeight">@dimen/m3_checked_text_min_height</item>
+        <item name="android:paddingEnd">@dimen/m3_checked_text_horizontal_padding</item>
+        <item name="android:paddingStart">@dimen/m3_checked_text_horizontal_padding</item>
+        <item name="android:paddingVertical">@dimen/m3_checked_text_vertical_padding</item>
+        <!-- Shape and ripple-related attributes -->
+        <item name="backgroundInsetBottom">@dimen/m3_checked_text_shape_inset_bottom</item>
+        <item name="backgroundInsetEnd">@dimen/m3_checked_text_shape_inset_end</item>
+        <item name="backgroundInsetStart">@dimen/m3_checked_text_shape_inset_start</item>
+        <item name="backgroundInsetTop">@dimen/m3_checked_text_shape_inset_top</item>
+        <item name="backgroundTint">@color/m3_checked_text_background_color</item>
+        <item name="rippleColor">@color/m3_checked_text_ripple_color</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Full</item>
+        <!-- Icon-related attributes -->
+        <item name="iconPadding">@dimen/m3_checked_text_icon_padding</item>
+        <item name="iconTint">@color/m3_checked_text_icon_tint</item>
+        <!-- Miscellaneous -->
+        <item name="background">@null</item>
+        <item name="enforceMaterialTheme">true</item>
+    </style>
+</resources>

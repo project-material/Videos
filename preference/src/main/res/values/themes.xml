@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PreferenceThemeOverlay.SettingsLib" parent="@style/PreferenceThemeOverlay">
+        <item name="dialogPreferenceStyle">@style/Preference.DialogPreference.SettingsLib</item>
+        <item name="footerPreferenceStyle">@style/Preference.SettingsLib</item>
+        <item name="editTextPreferenceStyle">@style/Preference.DialogPreference.EditTextPreference.SettingsLib</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Category.SettingsLib</item>
+        <item name="preferenceCategoryTitleTextAppearance">@style/TextAppearance.SettingsLib.TitleCategory</item>
+        <item name="preferenceScreenStyle">@style/Preference.PreferenceScreen.SettingsLib</item>
+        <item name="preferenceStyle">@style/Preference.SettingsLib</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat.SettingsLib</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="m3_comp_checked_text_container_height">48dp</dimen>
+    <!-- dimen name="m3_comp_toolbar_floating_container_leading_space">8dp</dimen -->
+    <!-- dimen name="m3_comp_toolbar_floating_container_trailing_space">8dp</dimen -->
+    <!-- dimen name="m3_comp_toolbar_floating_container_external_padding">16dp</dimen -->
+  
+  
+  
+  
+  <!-- Group: Shape -->
+  <style name="ShapeAppearance.M3.Comp.MaterialCheckedTextView.Container.Shape" parent="ShapeAppearance.M3.Sys.Shape.Corner.Full"/>
+</resources>

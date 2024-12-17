@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Видео</string>
+    <string name="internal_storage">Внутренняя память</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <!-- Activity -->
+    <string name="settings">Настройки</string>
+    <!-- Navigation -->
+    <string name="navigation_title_videos">Видео</string>
+    <string name="navigation_title_favorites">Избранное</string>
+    <string name="navigation_title_collections">Папки</string>
+    <!-- Empty -->
+    <string name="empty_state_view_title_videos">Нет видео</string>
+    <string name="empty_state_view_message_videos">На устройстве не было обнаружено видео</string>
+    <string name="empty_state_view_title_favorites">Нет избранных</string>
+    <string name="empty_state_view_message_favorites">Видео, помеченные как избранное, будут показываться здесь</string>
+    <string name="empty_state_view_title_collections">Нет папок</string>
+    <string name="empty_state_view_message_collections">Отсортируйте видео для быстрого доступа</string>
+    <!-- Menu -->
+    <string name="menu_list_view">В виде списка</string>
+    <string name="menu_grid_view">В виде сетки</string>
+    <string name="menu_sort">Сортировка</string>
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Удаление</string>
+    <string name="dialog_delete_message">Вы действительно хотите удалить данное видео?</string>
+    <string name="dialog_rename_title">Переименование</string>
+    <string name="dialog_rename_error_empty_input">Введите название файла</string>
+    <string name="dialog_rename_error_invalid_characters">Недопустимые символы</string>
+    <string name="dialog_theme_title">Выберите тему</string>
+    <!-- Sorting -->
+    <string name="sort_by_criteria_name">По названию</string>
+    <string name="sort_by_criteria_duration">По длительности</string>
+    <string name="sort_by_criteria_date">По дате</string>
+    <string name="sort_by_criteria_size">По размеру</string>
+    <string name="sort_by_criteria_count">По количеству видео</string>
+    <string name="sort_by_order_a_z">А-Я</string>
+    <string name="sort_by_order_z_a">Я-А</string>
+    <string name="sort_by_order_shortest">От коротких</string>
+    <string name="sort_by_order_longest">От длинных</string>
+    <string name="sort_by_order_oldest">От старых</string>
+    <string name="sort_by_order_newest">От новых</string>
+    <string name="sort_by_order_smallest">От маленьких</string>
+    <string name="sort_by_order_largest">От больших</string>
+    <!-- Options -->
+    <string name="option_favorite_add">Добавить в избранное</string>
+    <string name="option_favorite_remove">Удалить из избранных</string>
+    <string name="option_rename">Переименовать</string>
+    <string name="option_share">Поделиться</string>
+    <string name="option_info">Подробности</string>
+    <string name="option_delete">Удалить</string>
+    <!-- More info -->
+    <string name="info_bitrate">Битрейт</string>
+    <string name="info_calculating">Обработка...</string>
+    <string name="info_codec">Кодек</string>
+    <string name="info_duration">Длительность</string>
+    <string name="info_file_name">Название файла</string>
+    <string name="info_frame_rate">Частота кадров</string>
+    <string name="info_frame_rate_fps">к/с</string>
+    <string name="info_location">Расположение</string>
+    <string name="info_resolution">Разрешение</string>
+    <string name="info_size">Размер</string>
+    <!-- Buttons -->
+    <string name="button_cancel">Отмена</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_rename">Переименовать</string>
+    <!-- Settings -->
+    <string name="pref_category_customization">Персонализация</string>
+    <string name="pref_category_cache">Кэш</string>
+    <string name="pref_category_about">О приложении</string>
+    <string name="pref_title_theme">Тема</string>
+    <string name="pref_summary_theme_system">По умолчанию</string>
+    <string name="pref_summary_theme_light">Светлая</string>
+    <string name="pref_summary_theme_dark">Темная</string>
+    <string name="pref_title_color_scheme">Цветовая схема</string>
+    <string name="pref_summary_off_color_scheme">Статичная</string>
+    <string name="pref_summary_on_color_scheme">Динамичная</string>
+    <string name="pref_title_cache_clear">Очистить кэш</string>
+    <string name="pref_summary_cache_clear">Механизм кэширования сохраняет копии всех обложек видео для их быстрого отображения при последующем открытии приложения</string>
+    <string name="pref_title_build_version">Версия сборки</string>
+    <string name="pref_title_codename">Кодовое имя</string>
+    <!-- Snackbar Messages -->
+    <string name="snackbar_cache_clear_error">Ошибка очистки кэша.</string>
+    <string name="snackbar_cache_clear_success">Кэш успешно очищен.</string>
+    <string name="snackbar_favorite_added">\u0022%1$s\u0022 добавлено в избранное.</string>
+    <string name="snackbar_favorite_removed">\u0022%1$s\u0022 удалено из избранных.</string>
+    <string name="snackbar_delete_error">Ошибка удаления видео.</string>
+    <string name="snackbar_delete_error_not_found">Ошибка удаления видео: Видео не существует.</string>
+    <string name="snackbar_delete_success">\u0022%1$s\u0022 было безвозвратно удалено.</string>
+    <string name="snackbar_rename_error">Ошибка переименования видео.</string>
+    <string name="snackbar_rename_success">Видео успешно переименовано.</string>
+    <!-- Data-rate units -->
+    <string name="unit_bit">бит/c</string>
+    <string name="unit_kilobit">кбит/с</string>
+    <string name="unit_megabit">Мбит/с</string>
+    <string name="unit_gigabit">Гбит/с</string>
+    <!-- Size units -->
+    <string name="unit_byte">Б</string>
+    <string name="unit_kilobyte">кБ</string>
+    <string name="unit_megabyte">МБ</string>
+    <string name="unit_gigabyte">ГБ</string>
+    <string name="unit_terabyte">ТБ</string>
+    <!-- Video quantity -->
+    <plurals name="video_count">
+        <item quantity="one">%d видео</item>
+        <item quantity="other">%d видео</item>
+    </plurals>
+</resources>

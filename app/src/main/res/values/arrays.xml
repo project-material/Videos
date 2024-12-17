@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bitrate_units">
+        <item>@string/unit_bit</item>
+        <item>@string/unit_kilobit</item>
+        <item>@string/unit_megabit</item>
+        <item>@string/unit_gigabit</item>
+    </string-array>
+    <string-array name="formatted_duration">
+        <item>%d:%02d:%02d</item>
+        <item>%d:%02d</item>
+        <item>%d:%02d</item>
+    </string-array>
+    <string-array name="pref_entries_theme">
+        <item>@string/pref_summary_theme_system</item>
+        <item>@string/pref_summary_theme_light</item>
+        <item>@string/pref_summary_theme_dark</item>
+    </string-array>
+    <string-array name="pref_values_theme">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="size_units">
+        <item>@string/unit_byte</item>
+        <item>@string/unit_kilobyte</item>
+        <item>@string/unit_megabyte</item>
+        <item>@string/unit_gigabyte</item>
+        <item>@string/unit_terabyte</item>
+    </string-array>
+</resources>

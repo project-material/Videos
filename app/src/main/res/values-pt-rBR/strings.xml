@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Vídeos</string>
+    <string name="internal_storage">Armazenamento interno</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <!-- Activity -->
+    <string name="settings">Configurações</string>
+    <!-- Navigation -->
+    <string name="navigation_title_videos">Vídeos</string>
+    <string name="navigation_title_favorites">Favoritos</string>
+    <string name="navigation_title_collections">Pastas</string>
+    <!-- Empty -->
+    <string name="empty_state_view_title_videos">Nenhum vídeo</string>
+    <string name="empty_state_view_message_videos">Não foram encontrados vídeos no dispositivo</string>
+    <string name="empty_state_view_title_favorites">Nenhum favorito</string>
+    <string name="empty_state_view_message_favorites">Os vídeos marcados como favoritos aparecerão aqui</string>
+    <string name="empty_state_view_title_collections">Nenhuma pasta</string>
+    <string name="empty_state_view_message_collections">Organize os vídeos para facilitar o acesso</string>
+    <!-- Menu -->
+    <string name="menu_list_view">Visualização de lista</string>
+    <string name="menu_grid_view">Visualização de grade</string>
+    <string name="menu_sort">Classificar por</string>
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Excluir</string>
+    <string name="dialog_delete_message">Tem certeza de que deseja excluir este vídeo?</string>
+    <string name="dialog_rename_title">Renomear</string>
+    <string name="dialog_rename_error_empty_input">Digite o nome do arquivo</string>
+    <string name="dialog_rename_error_invalid_characters">Caracteres inválidos</string>
+    <string name="dialog_theme_title">Escolha o tema</string>
+    <!-- Sorting -->
+    <string name="sort_by_criteria_name">Nome</string>
+    <string name="sort_by_criteria_duration">Duração</string>
+    <string name="sort_by_criteria_date">Data</string>
+    <string name="sort_by_criteria_size">Tamanho</string>
+    <string name="sort_by_criteria_count">Quantidade de vídeos</string>
+    <string name="sort_by_order_a_z">A-Z</string>
+    <string name="sort_by_order_z_a">Z-A</string>
+    <string name="sort_by_order_shortest">Mais curto</string>
+    <string name="sort_by_order_longest">Mais longo</string>
+    <string name="sort_by_order_oldest">Mais antigo</string>
+    <string name="sort_by_order_newest">Mais novo</string>
+    <string name="sort_by_order_smallest">Menor</string>
+    <string name="sort_by_order_largest">Maior</string>
+    <!-- Options -->
+    <string name="option_favorite_add">Adicionar aos Favoritos</string>
+    <string name="option_favorite_remove">Remover dos Favoritos</string>
+    <string name="option_rename">Renomear</string>
+    <string name="option_share">Compartilhar</string>
+    <string name="option_info">Informações</string>
+    <string name="option_delete">Excluir</string>
+    <!-- More info -->
+    <string name="info_bitrate">Taxa de bits</string>
+    <string name="info_calculating">Calculando...</string>
+    <string name="info_codec">Codec</string>
+    <string name="info_duration">Duração</string>
+    <string name="info_file_name">Nome</string>
+    <string name="info_frame_rate">Taxa de quadros</string>
+    <string name="info_frame_rate_fps">fps</string>
+    <string name="info_location">Caminho</string>
+    <string name="info_resolution">Resolução</string>
+    <string name="info_size">Tamanho</string>
+    <!-- Buttons -->
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Excluir</string>
+    <string name="button_rename">Renomear</string>
+    <!-- Settings -->
+    <string name="pref_category_customization">Aparência</string>
+    <string name="pref_category_cache">Cache</string>
+    <string name="pref_category_about">Sobre</string>
+    <string name="pref_title_theme">Tema</string>
+    <string name="pref_summary_theme_system">Padrão do sistema</string>
+    <string name="pref_summary_theme_light">Claro</string>
+    <string name="pref_summary_theme_dark">Escuro</string>
+    <string name="pref_title_color_scheme">Esquema de cores</string>
+    <string name="pref_summary_off_color_scheme">Estático</string>
+    <string name="pref_summary_on_color_scheme">Dinâmico</string>
+    <string name="pref_title_cache_clear">Limpar cache</string>
+    <string name="pref_summary_cache_clear">O mecanismo de cache armazena cópias de todas as miniaturas de vídeo para exibi-las rapidamente quando o aplicativo é aberto</string>
+    <string name="pref_title_build_version">Versão</string>
+    <string name="pref_title_codename">Codiname</string>
+    <!-- Snackbar Messages -->
+    <string name="snackbar_cache_clear_error">Erro ao limpar o cache: A limpeza do cache falhou inesperadamente.</string>
+    <string name="snackbar_cache_clear_success">O cache foi limpo com sucesso.</string>
+    <string name="snackbar_favorite_added">\u0022%1$s\u0022 foi adicionado aos favoritos.</string>
+    <string name="snackbar_favorite_removed">\u0022%1$s\u0022 foi removido dos favoritos.</string>
+    <string name="snackbar_delete_error">Erro ao excluir vídeo: A exclusão falhou inesperadamente.</string>
+    <string name="snackbar_delete_error_not_found">Erro ao excluir vídeo: O vídeo não existe.</string>
+    <string name="snackbar_delete_success">\u0022%1$s\u0022 foi permanentemente excluído.</string>
+    <string name="snackbar_rename_error">Erro ao renomear vídeo: A renomeação falhou inesperadamente.</string>
+    <string name="snackbar_rename_success">O vídeo foi renomeado com sucesso.</string>
+    <!-- Data-rate units -->
+    <string name="unit_bit">bps</string>
+    <string name="unit_kilobit">kbps</string>
+    <string name="unit_megabit">Mbps</string>
+    <string name="unit_gigabit">Gbps</string>
+    <!-- Size units -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">kB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <!-- Video quantity -->
+    <plurals name="video_count">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+</resources>

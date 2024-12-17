@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Videos</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <!-- Activity -->
+    <string name="settings">Settings</string>
+    <!-- Navigation -->
+    <string name="navigation_title_videos">Videos</string>
+    <string name="navigation_title_favorites">Favourites</string>
+    <string name="navigation_title_collections">Folders</string>
+    <!-- Empty -->
+    <string name="empty_state_view_title_videos">No videos</string>
+    <string name="empty_state_view_message_videos">No videos found on the device</string>
+    <string name="empty_state_view_title_favorites">No favourites</string>
+    <string name="empty_state_view_message_favorites">Videos marked as favourites will be shown here</string>
+    <string name="empty_state_view_title_collections">No folders</string>
+    <string name="empty_state_view_message_collections">Organise videos for easier access</string>
+    <!-- Menu -->
+    <string name="menu_list_view">List view</string>
+    <string name="menu_grid_view">Grid view</string>
+    <string name="menu_sort">Sort by</string>
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this video?</string>
+    <string name="dialog_rename_title">Rename</string>
+    <string name="dialog_rename_error_empty_input">Enter file name</string>
+    <string name="dialog_rename_error_invalid_characters">Invalid characters</string>
+    <string name="dialog_theme_title">Choose theme</string>
+    <!-- Sorting -->
+    <string name="sort_by_criteria_name">Name</string>
+    <string name="sort_by_criteria_duration">Duration</string>
+    <string name="sort_by_criteria_date">Date</string>
+    <string name="sort_by_criteria_size">Size</string>
+    <string name="sort_by_criteria_count">Video count</string>
+    <string name="sort_by_order_a_z">A-Z</string>
+    <string name="sort_by_order_z_a">Z-A</string>
+    <string name="sort_by_order_shortest">Shortest</string>
+    <string name="sort_by_order_longest">Longest</string>
+    <string name="sort_by_order_oldest">Oldest</string>
+    <string name="sort_by_order_newest">Newest</string>
+    <string name="sort_by_order_smallest">Smallest</string>
+    <string name="sort_by_order_largest">Largest</string>
+    <!-- Options -->
+    <string name="option_favorite_add">Add to Favourites</string>
+    <string name="option_favorite_remove">Remove from Favourites</string>
+    <string name="option_rename">Rename</string>
+    <string name="option_share">Share</string>
+    <string name="option_info">Information</string>
+    <string name="option_delete">Delete</string>
+    <!-- More info -->
+    <string name="info_bitrate">Bitrate</string>
+    <string name="info_calculating">Calculating...</string>
+    <string name="info_codec">Codec</string>
+    <string name="info_duration">Duration</string>
+    <string name="info_file_name">File name</string>
+    <string name="info_frame_rate">Frame rate</string>
+    <string name="info_frame_rate_fps">fps</string>
+    <string name="info_location">Location</string>
+    <string name="info_resolution">Resolution</string>
+    <string name="info_size">Size</string>
+    <!-- Buttons -->
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_rename">Rename</string>
+    <!-- Settings -->
+    <string name="pref_category_customization">Customisation</string>
+    <string name="pref_category_cache">Cache</string>
+    <string name="pref_category_about">About</string>
+    <string name="pref_title_theme">Theme</string>
+    <string name="pref_summary_theme_system">System default</string>
+    <string name="pref_summary_theme_light">Light</string>
+    <string name="pref_summary_theme_dark">Dark</string>
+    <string name="pref_title_color_scheme">Colour scheme</string>
+    <string name="pref_summary_off_color_scheme">Static</string>
+    <string name="pref_summary_on_color_scheme">Dynamic</string>
+    <string name="pref_title_cache_clear">Clear cache</string>
+    <string name="pref_summary_cache_clear">Caching mechanism stores copies of all video thumbnails to display them quickly when the app is opened</string>
+    <string name="pref_title_build_version">Build version</string>
+    <string name="pref_title_codename">Codename</string>
+    <!-- Snackbar Messages -->
+    <string name="snackbar_cache_clear_error">Error clearing cache: Cache clearing failed unexpectedly.</string>
+    <string name="snackbar_cache_clear_success">Cache cleared successfully.</string>
+    <string name="snackbar_favorite_added">\u0022%1$s\u0022 has been added to favourites.</string>
+    <string name="snackbar_favorite_removed">\u0022%1$s\u0022 has been removed from favourites.</string>
+    <string name="snackbar_delete_error">Error deleting video: Deletion failed unexpectedly.</string>
+    <string name="snackbar_delete_error_not_found">Error deleting video: The video does not exist.</string>
+    <string name="snackbar_delete_success">\u0022%1$s\u0022 has been permanently deleted.</string>
+    <string name="snackbar_rename_error">Error renaming video: Renaming failed unexpectedly.</string>
+    <string name="snackbar_rename_success">Video renamed successfully.</string>
+    <!-- Data-rate units -->
+    <string name="unit_bit">bps</string>
+    <string name="unit_kilobit">kbps</string>
+    <string name="unit_megabit">Mbps</string>
+    <string name="unit_gigabit">Gbps</string>
+    <!-- Size units -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">kB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <!-- Video quantity -->
+    <plurals name="video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+</resources>

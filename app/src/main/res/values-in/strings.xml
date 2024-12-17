@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Video</string>
+    <string name="internal_storage">Penyimpanan internal</string>
+    <string name="copied_to_clipboard">Disalin ke papan klip</string>
+    <!-- Activity -->
+    <string name="settings">Pengaturan</string>
+    <!-- Navigation -->
+    <string name="navigation_title_videos">Video</string>
+    <string name="navigation_title_favorites">Favorit</string>
+    <string name="navigation_title_collections">Folder</string>
+    <!-- Empty -->
+    <string name="empty_state_view_title_videos">Tidak ada video</string>
+    <string name="empty_state_view_message_videos">Tidak ada video yang ditemukan di perangkat</string>
+    <string name="empty_state_view_title_favorites">Tidak ada favorit</string>
+    <string name="empty_state_view_message_favorites">Video yang ditandai sebagai favorit akan ditampilkan di sini</string>
+    <string name="empty_state_view_title_collections">Tidak ada folder</string>
+    <string name="empty_state_view_message_collections">Atur video untuk akses yang lebih mudah</string>
+    <!-- Menu -->
+    <string name="menu_list_view">Tampilan daftar</string>
+    <string name="menu_grid_view">Tampilan kisi</string>
+    <string name="menu_sort">Urutkan berdasarkan</string>
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Hapus</string>
+    <string name="dialog_delete_message">Apakah anda yakin ingin menghapus video ini?</string>
+    <string name="dialog_rename_title">Ganti nama</string>
+    <string name="dialog_rename_error_empty_input">Masukkan nama berkas</string>
+    <string name="dialog_rename_error_invalid_characters">Karakter tidak valid</string>
+    <string name="dialog_theme_title">Pilih tema</string>
+    <!-- Sorting -->
+    <string name="sort_by_criteria_name">Nama</string>
+    <string name="sort_by_criteria_duration">Durasi</string>
+    <string name="sort_by_criteria_date">Tanggal</string>
+    <string name="sort_by_criteria_size">Ukuran</string>
+    <string name="sort_by_criteria_count">Hitungan video</string>
+    <string name="sort_by_order_a_z">A-Z</string>
+    <string name="sort_by_order_z_a">Z-A</string>
+    <string name="sort_by_order_shortest">Terpendek</string>
+    <string name="sort_by_order_longest">Terpanjang</string>
+    <string name="sort_by_order_oldest">Tertua</string>
+    <string name="sort_by_order_newest">Terbaru</string>
+    <string name="sort_by_order_smallest">Terkecil</string>
+    <string name="sort_by_order_largest">Terbesar</string>
+    <!-- Options -->
+    <string name="option_favorite_add">Tambahkan ke favorit</string>
+    <string name="option_favorite_remove">Hapus dari favorit</string>
+    <string name="option_rename">Ganti nama</string>
+    <string name="option_share">Bagikan</string>
+    <string name="option_info">Informasi</string>
+    <string name="option_delete">Hapus</string>
+    <!-- More info -->
+    <string name="info_bitrate">Bitrate</string>
+    <string name="info_calculating">Menghitung...</string>
+    <string name="info_codec">Kodek</string>
+    <string name="info_duration">Durasi</string>
+    <string name="info_file_name">Nama berkas</string>
+    <string name="info_frame_rate">Kecepatan bingkai</string>
+    <string name="info_frame_rate_fps">fps</string>
+    <string name="info_location">Lokasi</string>
+    <string name="info_resolution">Resolusi</string>
+    <string name="info_size">Ukuran</string>
+    <!-- Buttons -->
+    <string name="button_cancel">Batal</string>
+    <string name="button_delete">Hapus</string>
+    <string name="button_rename">Simpan</string>
+    <!-- Settings -->
+    <string name="pref_category_customization">Kustomisasi</string>
+    <string name="pref_category_cache">Cache</string>
+    <string name="pref_category_about">Tentang</string>
+    <string name="pref_title_theme">Tema</string>
+    <string name="pref_summary_theme_system">Sistem bawaan</string>
+    <string name="pref_summary_theme_light">Cahaya</string>
+    <string name="pref_summary_theme_dark">Gelap</string>
+    <string name="pref_title_color_scheme">Skema warna</string>
+    <string name="pref_summary_off_color_scheme">Statis</string>
+    <string name="pref_summary_on_color_scheme">Dinamis</string>
+    <string name="pref_title_cache_clear">Kosongkan cache</string>
+    <string name="pref_summary_cache_clear">Mekanisme caching menyimpan salinan semua gambar mini video untuk ditampilkan dengan cepat saat aplikasi dibuka</string>
+    <string name="pref_title_build_version">Versi build</string>
+    <string name="pref_title_codename">Nama kode</string>
+    <!-- Snackbar Messages -->
+    <string name="snackbar_cache_clear_error">Kesalahan membersihkan cache: Pembersihan cache gagal secara tidak terduga.</string>
+    <string name="snackbar_cache_clear_success">Cache berhasil dihapus.</string>
+    <string name="snackbar_favorite_added">\u0022%1$s\u0022 telah ditambahkan ke favorit.</string>
+    <string name="snackbar_favorite_removed">\u0022%1$s\u0022 telah dihapus dari favorit.</string>
+    <string name="snackbar_delete_error">Kesalahan saat menghapus video: Penghapusan gagal secara tidak terduga.</string>
+    <string name="snackbar_delete_error_not_found">Galat saat menghapus video: Video tidak ada.</string>
+    <string name="snackbar_delete_success">\u0022%1$s\u0022 telah dihapus secara permanen.</string>
+    <string name="snackbar_rename_error">Kesalahan saat mengganti nama video: Penggantian nama gagal secara tidak terduga.</string>
+    <string name="snackbar_rename_success">Video berhasil diganti namanya.</string>
+    <!-- Data-rate units -->
+    <string name="unit_bit">bps</string>
+    <string name="unit_kilobit">kbps</string>
+    <string name="unit_megabit">Mbps</string>
+    <string name="unit_gigabit">Gbps</string>
+    <!-- Size units -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">kB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <!-- Video quantity -->
+    <plurals name="video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d video</item>
+    </plurals>
+</resources>

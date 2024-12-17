@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.ProjectX.Button.SortingButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:gravity">center|start</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="iconPadding">16dp</item>
+        <item name="iconSize">24dp</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerMedium</item>
+    </style>
+    <!-- Collapsing Toolbar -->
+    <style name="CollapsingToolbarTitle.Collapsed" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="CollapsingToolbarTitle.Expanded" parent="CollapsingToolbarTitle.Collapsed">
+        <item name="android:textSize">36sp</item>
+    </style>
+    <!-- Snackbar -->
+    <style name="Widget.ProjectX.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="android:layout_margin">@null</item>
+        <item name="android:layout_marginHorizontal">24dp</item>
+        <item name="android:layout_marginVertical">24dp</item>
+    </style>
+    <style name="Widget.ProjectX.Snackbar.HorizontalMargin" parent="Widget.ProjectX.Snackbar">
+        <item name="android:layout_marginHorizontal">24dp</item>
+        <item name="android:layout_marginVertical">0dp</item>
+    </style>
+</resources>

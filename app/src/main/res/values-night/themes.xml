@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ProjectX.SplashScreen" parent="Theme.ProjectX">
+        <item name="android:windowSplashScreenBackground">@color/m3_sys_color_dynamic_dark_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/quantum_splashscreen_icon</item>
+    </style>
+</resources>

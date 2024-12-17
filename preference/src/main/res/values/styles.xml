@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Preference.Category.SettingsLib" parent="@style/Preference.Category.Material">
+        <item name="android:layout">@layout/preference_category_material</item>
+        <item name="allowDividerAbove">@bool/m3_config_allow_divider</item>
+        <item name="allowDividerBelow">@bool/m3_config_allow_divider</item>
+        <item name="iconSpaceReserved">@bool/m3_config_icon_space_reserved</item>
+    </style>
+    <style name="Preference.DialogPreference.SettingsLib" parent="@style/Preference.DialogPreference.Material">
+        <item name="android:layout">@layout/m3_preference</item>
+        <item name="iconSpaceReserved">@bool/m3_config_icon_space_reserved</item>
+    </style>
+    <style name="Preference.DialogPreference.EditTextPreference.SettingsLib" parent="@style/Preference.DialogPreference.EditTextPreference.Material">
+        <item name="layout">@layout/m3_preference</item>
+        <item name="dialogLayout">@layout/m3_preference_dialog_edittext</item>
+        <item name="iconSpaceReserved">@bool/m3_config_icon_space_reserved</item>
+    </style>
+    <style name="Preference.SettingsLib" parent="@style/Preference.Material">
+        <item name="layout">@layout/m3_preference</item>
+        <item name="iconSpaceReserved">@bool/m3_config_icon_space_reserved</item>
+    </style>
+    <style name="Preference.PreferenceScreen.SettingsLib" parent="@style/Preference.PreferenceScreen.Material">
+        <item name="android:layout">@layout/m3_preference</item>
+        <item name="iconSpaceReserved">@bool/m3_config_icon_space_reserved</item>
+    </style>
+    <style name="Preference.SwitchPreferenceCompat.SettingsLib" parent="@style/Preference.SwitchPreferenceCompat.Material">
+        <item name="android:widgetLayout">@layout/m3_preference_widget_switch_compat</item>
+        <item name="layout">@layout/m3_preference</item>
+        <item name="iconSpaceReserved">@bool/m3_config_icon_space_reserved</item>
+    </style>
+    <style name="TextAppearance.SettingsLib.TitleCategory" parent="@style/TextAppearance.Material3.TitleSmall">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="TextAppearance.SettingsLib.TitlePreference" parent="@style/TextAppearance.Material3.TitleLarge">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextAppearance.SettingsLib.SummaryPreference" parent="@style/TextAppearance.Material3.BodyMedium">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+</resources>

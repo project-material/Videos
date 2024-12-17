@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="materialCheckedTextViewStyle" format="reference"/>
+    <declare-styleable name="MaterialCheckedTextView">
+        <attr name="background"/>
+        <attr name="backgroundInsetBottom"/>
+        <attr name="backgroundInsetEnd"/>
+        <attr name="backgroundInsetStart"/>
+        <attr name="backgroundInsetTop"/>
+        <attr name="backgroundTint"/>
+        <attr name="iconPadding"/>
+        <attr name="iconSize"/>
+        <attr name="iconTint"/>
+        <attr name="rippleColor"/>
+        <attr name="shapeAppearance"/>
+        <attr name="shapeAppearanceOverlay"/>
+    </declare-styleable>
+</resources>

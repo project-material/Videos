@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.ProjectX.MaterialAlertDialog.Centered" parent="@style/ThemeOverlay.Material3.MaterialAlertDialog.Centered">
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.ProjectX</item>
+        <item name="materialAlertDialogTitlePanelStyle">@style/MaterialAlertDialog.ProjectX.Title.Panel.CenterStacked</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.ProjectX.Title.Text.CenterStacked</item>
+        <item name="materialCheckedTextViewStyle">@style/Widget.ProjectX.MaterialCheckedTextView</item>
+  </style>
+</resources>

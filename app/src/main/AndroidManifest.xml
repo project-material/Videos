@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="false"
+        android:appCategory="video"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:name=".app.VideoApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectX">
+        <activity
+            android:exported="true"
+            android:name=".activity.VideoLibraryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/Theme.ProjectX.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:name=".activity.CollectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ProjectX.Activity"/>
+        <activity
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ProjectX.Settings"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.projectmaterial.videos.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+			<meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+		</provider>
+    </application>
+</manifest>

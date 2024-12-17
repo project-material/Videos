@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">视频</string>
+    <string name="internal_storage">内部存储空间</string>
+    <string name="copied_to_clipboard">复制到剪贴板</string>
+    <!-- Activity -->
+    <string name="settings">设置</string>
+    <!-- Navigation -->
+    <string name="navigation_title_videos">视频</string>
+    <string name="navigation_title_favorites">收藏</string>
+    <string name="navigation_title_collections">文件夹</string>
+    <!-- Empty -->
+    <string name="empty_state_view_title_videos">暂无视频</string>
+    <string name="empty_state_view_message_videos">该设备上找不到视频</string>
+    <string name="empty_state_view_title_favorites">暂无收藏</string>
+    <string name="empty_state_view_message_favorites">标记为收藏的视频将在这里显示</string>
+    <string name="empty_state_view_title_collections">暂无文件夹</string>
+    <string name="empty_state_view_message_collections">整理视频便于浏览</string>
+    <!-- Menu -->
+    <string name="menu_list_view">列表视图</string>
+    <string name="menu_grid_view">网格视图</string>
+    <string name="menu_sort">排序</string>
+    <!-- Dialog -->
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">确定要删除此视频吗?</string>
+    <string name="dialog_rename_title">重命名</string>
+    <string name="dialog_rename_error_empty_input">输入文件名</string>
+    <string name="dialog_rename_error_invalid_characters">无效字符</string>
+    <string name="dialog_theme_title">主题选择</string>
+    <!-- Sorting -->
+    <string name="sort_by_criteria_name">文件名</string>
+    <string name="sort_by_criteria_duration">持续时间</string>
+    <string name="sort_by_criteria_date">日期</string>
+    <string name="sort_by_criteria_size">尺寸</string>
+    <string name="sort_by_criteria_count">视频计数</string>
+    <string name="sort_by_order_a_z">A-Z</string>
+    <string name="sort_by_order_z_a">Z-A</string>
+    <string name="sort_by_order_shortest">最短</string>
+    <string name="sort_by_order_longest">最长</string>
+    <string name="sort_by_order_oldest">最早</string>
+    <string name="sort_by_order_newest">最新</string>
+    <string name="sort_by_order_smallest">最小</string>
+    <string name="sort_by_order_largest">最大</string>
+    <!-- Options -->
+    <string name="option_favorite_add">添加到收藏</string>
+    <string name="option_favorite_remove">移除收藏</string>
+    <string name="option_rename">重命名</string>
+    <string name="option_share">分享</string>
+    <string name="option_info">信息</string>
+    <string name="option_delete">删除</string>
+    <!-- More info -->
+    <string name="info_bitrate">比特率</string>
+    <string name="info_calculating">计算中...</string>
+    <string name="info_codec">编码器</string>
+    <string name="info_duration">持续时间</string>
+    <string name="info_file_name">文件名</string>
+    <string name="info_frame_rate">帧率</string>
+    <string name="info_frame_rate_fps">帧</string>
+    <string name="info_location">位置</string>
+    <string name="info_resolution">质量</string>
+    <string name="info_size">尺寸</string>
+    <!-- Buttons -->
+    <string name="button_cancel">取消</string>
+    <string name="button_delete">删除</string>
+    <string name="button_rename">重命名</string>
+    <!-- Settings -->
+    <string name="pref_category_customization">定制</string>
+    <string name="pref_category_cache">缓存</string>
+    <string name="pref_category_about">关于</string>
+    <string name="pref_title_theme">主题</string>
+    <string name="pref_summary_theme_system">系统默认</string>
+    <string name="pref_summary_theme_light">亮色</string>
+    <string name="pref_summary_theme_dark">暗色</string>
+    <string name="pref_title_color_scheme">配色方案</string>
+    <string name="pref_summary_off_color_scheme">静态</string>
+    <string name="pref_summary_on_color_scheme">动态取色</string>
+    <string name="pref_title_cache_clear">清除缓存</string>
+    <string name="pref_summary_cache_clear">缓存机制将会存储所有视频缩略图的副本，以便在应用程序打开时快速显示</string>
+    <string name="pref_title_build_version">构建版本</string>
+    <string name="pref_title_codename">版本代号</string>
+    <!-- Snackbar Messages -->
+    <string name="snackbar_cache_clear_error">清除缓存中发生错误：缓存清除意外失败.</string>
+    <string name="snackbar_cache_clear_success">缓存清除成功.</string>
+    <string name="snackbar_favorite_added">\u0022%1$s\u0022 被添加到收藏.</string>
+    <string name="snackbar_favorite_removed">\u0022%1$s\u0022 被从收藏中移除.</string>
+    <string name="snackbar_delete_error">删除视频中发生错误：删除意外失败.</string>
+    <string name="snackbar_delete_error_not_found">删除视频中发生错误：视频不存在.</string>
+    <string name="snackbar_delete_success">\u0022%1$s\u0022 已被永久删除.</string>
+    <string name="snackbar_rename_error">重命名视频中发生错误：重命名意外失败.</string>
+    <string name="snackbar_rename_success">视频重命名成功.</string>
+    <!-- Data-rate units -->
+    <string name="unit_bit">bps</string>
+    <string name="unit_kilobit">kbps</string>
+    <string name="unit_megabit">Mbps</string>
+    <string name="unit_gigabit">Gbps</string>
+    <!-- Size units -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">kB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <!-- Video quantity -->
+    <plurals name="video_count">
+        <item quantity="one">%d 个视频</item>
+        <item quantity="other">%d 个视频</item>
+    </plurals>
+</resources>

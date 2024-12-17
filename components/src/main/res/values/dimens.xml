@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="m3_checked_text_horizontal_padding">40dp</dimen>
+    <dimen name="m3_checked_text_icon_padding">12dp</dimen>
+    <dimen name="m3_checked_text_min_height">48dp</dimen>
+    <dimen name="m3_checked_text_shape_inset_start">24dp</dimen>
+    <dimen name="m3_checked_text_shape_inset_top">0dp</dimen>
+    <dimen name="m3_checked_text_shape_inset_end">24dp</dimen>
+    <dimen name="m3_checked_text_shape_inset_bottom">0dp</dimen>
+    <dimen name="m3_checked_text_vertical_padding">4dp</dimen>
+</resources>

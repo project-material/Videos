@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2024 The Project Material
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:autoMirrored="true"
+    android:viewportWidth="306"
+    android:viewportHeight="306">
+	<group>
+		<clip-path
+            android:pathData="M0,0h305.24v305.24h-305.24z"/>
+		<path android:pathData="M152.62,305.24C236.91,305.24 305.24,236.91 305.24,152.62C305.24,68.33 236.91,0 152.62,0C68.33,0 0,68.33 0,152.62C0,236.91 68.33,305.24 152.62,305.24Z"
+            android:fillColor="?attr/colorSurfaceContainerLow"/>
+		<path android:pathData="M89.13,291.39C109.055,300.519 130.714,305.245 152.63,305.245C174.546,305.245 196.205,300.519 216.13,291.39C207.946,282.78 198.096,275.925 187.18,271.24C176.264,266.555 164.509,264.14 152.63,264.14C140.751,264.14 128.996,266.555 118.08,271.24C107.164,275.925 97.314,282.78 89.13,291.39V291.39Z"
+            android:fillColor="?attr/colorSecondaryContainer"
+            android:strokeAlpha="0.3"
+            android:fillAlpha="0.3"/>
+		<path android:pathData="M200.83,7.81V64.73C200.83,68.708 202.41,72.523 205.223,75.336C208.036,78.149 211.852,79.73 215.83,79.73H286.68C268.148,45.795 237.487,20.108 200.83,7.81Z"
+            android:fillColor="?attr/colorSecondaryContainer"
+            android:strokeAlpha="0.3"
+            android:fillAlpha="0.3"/>
+		<path android:pathData="M47.36,194.13L7.82,104.38C0.919,125.088 -1.454,147.037 0.859,168.742C3.173,190.446 10.12,211.401 21.23,230.19C40.07,232.22 55.62,212.78 47.36,194.13Z"
+            android:fillColor="?attr/colorSecondaryContainer"
+            android:strokeAlpha="0.3"
+            android:fillAlpha="0.3"/>
+	</group>
+</vector>
