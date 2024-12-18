@@ -5,7 +5,6 @@
   </a>
 </p>
 An application designed to elegantly display and organize videos stored locally on your device, featuring a refined and intuitive user interface.
-[![Platform](https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.android.com)
 
 ## Features
 - Modern Material 3 Design
