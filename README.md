@@ -5,8 +5,8 @@
   </a>
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=212026&color=4285F4">
-<img src="https://img.shields.io/badge/31%2B-level?style=for-the-badge&logo=android&logoColor=4FAF53&label=API&labelColor=212026&color=E4F6EA">
+  <img src="https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=212026&color=4285F4">
+  <img src="https://img.shields.io/badge/31%2B-level?style=for-the-badge&logo=android&logoColor=4FAF53&label=API&labelColor=212026&color=E4F6EA">
 </p>
 
 An application designed to elegantly display and organize videos stored locally on your device, featuring a refined and intuitive user interface.
